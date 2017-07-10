@@ -14,6 +14,10 @@ a img{
     border: none;
     vertical-align: bottom;
 }
+img {
+    height: auto;
+    max-width: 100%;
+}
 p{
     color: #c2c3c4;
     font-size: 15px;
@@ -172,4 +176,48 @@ header h3{
 .service_item_title {
     min-height: 43px;
 }
-
+a.button_link {
+    font-size: 14px;
+    padding: 5px 10px;
+    background: #232628;
+    border: 1px solid #4b4d4f !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: #c2c3c4;
+}
+a.button_link i {
+    font-size: 14px;
+    color: #c29e21;
+}
+.fl_right {
+    float: right;
+}
+.mb_60{
+    margin-bottom: 60px;
+}
+.home_content{
+    margin-bottom: 20px;
+}
+.home_content img{
+    width: 100%;
+}
+popup_image{
+    position: relative;
+}
+popup_image img{
+    margin-bottom: 10px;
+}
+.popup_image a{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    margin-top: 10px;
+}
+.popup_image a i{
+    font-size: 20px;
+    color: #fff;
+    background: #c29e21;
+    padding: 10px;
+}
