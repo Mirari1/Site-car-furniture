@@ -2,6 +2,11 @@ body{
     position: relative;
     background: #5d0000;
 }
+h1{
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+}
 li{
     display: list-item;
     list-style: none;
@@ -80,7 +85,7 @@ header h3{
     padding-left: 37px;
     padding-top: 9px;
 }
-#responsive-menu ul li:last-child a{
+#responsive-menu ul li:last-child a, .yellow_submit{
     color: #fff;
     font-size: 18px;
     padding: 5px 10px;    
@@ -202,10 +207,10 @@ a.button_link i {
 .home_content img{
     width: 100%;
 }
-popup_image{
+.popup_image{
     position: relative;
 }
-popup_image img{
+.popup_image img{
     margin-bottom: 10px;
 }
 .popup_image a{
@@ -220,4 +225,73 @@ popup_image img{
     color: #fff;
     background: #c29e21;
     padding: 10px;
+}
+.page_title{
+    display: inline-block;
+    min-width: 360px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+.home_content{
+    margin-bottom: 20px;
+}
+.contenting p{
+    padding-bottom: 15px;
+}
+.question_wrapper {
+    padding: 25px 0;
+    height: 248px;
+    background: url(../img/q_bg.jpg) no-repeat 0 0;
+    background-size: cover;
+}    
+input[text="text"], textarea{
+    width: 90%;
+    padding: 10px;
+    background: #b3b4b4;
+    border: 1px solid #4b4d4f;
+    margin-bottom: 10px;
+}
+input[placeholder]{
+    color: #222 !important;
+}
+
+.jq-file {
+    display: inline-block;
+    float: right;
+    margin-bottom: 15xpx;
+}
+.jq-file__name{
+    border: none;
+    background: none;
+    color: #b3b4b4;
+    display: inline-block;
+    margin-top: 5px;
+}
+.jq-file__browse{
+    background: #b3b4b4;
+    color: #2f2f2f;
+    border: 1px solid #4b4d4f;
+    padding: 7px 10px 7px 10px;
+    display: inline-block;
+    float: right;
+    font-size: 14px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin-top: 5px;
+}
+.jq-file input{
+    cursor: pointer;
+    height: auto;
+    line-height: 1em;
+}
+textarea{
+    float: right;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 14px;
+    height: 64px;
+    margin-bottom: 12px;
+}
+input[type="submit"]{
+    border: none;
+    padding: 8px 10px 8px 10px;
+    cursor: pointer;
 }
